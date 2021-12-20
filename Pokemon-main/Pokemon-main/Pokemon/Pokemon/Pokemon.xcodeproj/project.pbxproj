@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2C8B452770D1680021974B /* ListLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C8B442770D1680021974B /* ListLine.swift */; };
+		8B2C8B492770DC460021974B /* CampoBatalha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C8B482770DC460021974B /* CampoBatalha.swift */; };
+		8B3DE472276DED6000028BDA /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DE471276DED6000028BDA /* Pokemon.swift */; };
+		8B3DE474276DF05700028BDA /* aux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DE473276DF05700028BDA /* aux.swift */; };
+		8B3DE476276DF09D00028BDA /* tipoPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DE475276DF09D00028BDA /* tipoPokemon.swift */; };
+		8B3DE47C276DF15A00028BDA /* pokeDetalhes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DE47B276DF15A00028BDA /* pokeDetalhes.swift */; };
 		8BC91F112764B88500F768D1 /* PokemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC91F102764B88500F768D1 /* PokemonApp.swift */; };
 		8BC91F132764B88500F768D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC91F122764B88500F768D1 /* ContentView.swift */; };
 		8BC91F152764B88700F768D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC91F142764B88700F768D1 /* Assets.xcassets */; };
 		8BC91F182764B88700F768D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC91F172764B88700F768D1 /* Preview Assets.xcassets */; };
-		8BC91F212764B8A100F768D1 /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC91F202764B8A000F768D1 /* Pokedex.swift */; };
-		8BC91F252764B8D400F768D1 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC91F242764B8D400F768D1 /* Pokemon.swift */; };
-		8BC91F282764B8E700F768D1 /* CampoBatalha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC91F272764B8E700F768D1 /* CampoBatalha.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B2C8B442770D1680021974B /* ListLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListLine.swift; sourceTree = "<group>"; };
+		8B2C8B482770DC460021974B /* CampoBatalha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampoBatalha.swift; sourceTree = "<group>"; };
+		8B3DE471276DED6000028BDA /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8B3DE473276DF05700028BDA /* aux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aux.swift; sourceTree = "<group>"; };
+		8B3DE475276DF09D00028BDA /* tipoPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipoPokemon.swift; sourceTree = "<group>"; };
+		8B3DE47B276DF15A00028BDA /* pokeDetalhes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeDetalhes.swift; sourceTree = "<group>"; };
 		8BC91F0D2764B88500F768D1 /* Pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC91F102764B88500F768D1 /* PokemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonApp.swift; sourceTree = "<group>"; };
 		8BC91F122764B88500F768D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BC91F142764B88700F768D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC91F172764B88700F768D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BC91F192764B88700F768D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BC91F202764B8A000F768D1 /* Pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
-		8BC91F242764B8D400F768D1 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
-		8BC91F272764B8E700F768D1 /* CampoBatalha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampoBatalha.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +69,12 @@
 				8BC91F142764B88700F768D1 /* Assets.xcassets */,
 				8BC91F192764B88700F768D1 /* Info.plist */,
 				8BC91F162764B88700F768D1 /* Preview Content */,
-				8BC91F202764B8A000F768D1 /* Pokedex.swift */,
-				8BC91F242764B8D400F768D1 /* Pokemon.swift */,
-				8BC91F272764B8E700F768D1 /* CampoBatalha.swift */,
+				8B3DE471276DED6000028BDA /* Pokemon.swift */,
+				8B3DE473276DF05700028BDA /* aux.swift */,
+				8B3DE475276DF09D00028BDA /* tipoPokemon.swift */,
+				8B3DE47B276DF15A00028BDA /* pokeDetalhes.swift */,
+				8B2C8B442770D1680021974B /* ListLine.swift */,
+				8B2C8B482770DC460021974B /* CampoBatalha.swift */,
 			);
 			path = Pokemon;
 			sourceTree = "<group>";
@@ -147,11 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3DE472276DED6000028BDA /* Pokemon.swift in Sources */,
 				8BC91F132764B88500F768D1 /* ContentView.swift in Sources */,
-				8BC91F252764B8D400F768D1 /* Pokemon.swift in Sources */,
+				8B2C8B492770DC460021974B /* CampoBatalha.swift in Sources */,
+				8B2C8B452770D1680021974B /* ListLine.swift in Sources */,
+				8B3DE47C276DF15A00028BDA /* pokeDetalhes.swift in Sources */,
+				8B3DE474276DF05700028BDA /* aux.swift in Sources */,
+				8B3DE476276DF09D00028BDA /* tipoPokemon.swift in Sources */,
 				8BC91F112764B88500F768D1 /* PokemonApp.swift in Sources */,
-				8BC91F212764B8A100F768D1 /* Pokedex.swift in Sources */,
-				8BC91F282764B8E700F768D1 /* CampoBatalha.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
